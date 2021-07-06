@@ -2,17 +2,48 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
 .color{
+   
     color:violet;
+}
+h1{
+    font-size:50px;
 }
 .half-width{
     width:50%;
     padding-left:5%;
 }
+.half-width img {
+    width: 80%;
+}
 .flexible-container{
     display:flex;
-    margin-bottom:200px;
+    margin-bottom:150px;
 }
+
 
 .link-button{
     text-decoration: cornflowerblue;
@@ -35,9 +66,11 @@ body{
         background-image:url(images/backgroundimg.png);
         background-repeat: no-repeat;
         background-position: right;
+       
+      
       
     }
- 
+    
 h3{
     text-align:center;
 }
@@ -70,9 +103,11 @@ p{
 }
 .my-color{
     color:orangered;
+    padding:10px 10px 10px 10px;
 }
 .blue-color{
-    color:blue;
+    color:grey;
+    padding:10px 10px 10px 10px;
 }
 
 .followers{
@@ -88,8 +123,20 @@ p{
 
     
 }
+.food{
+    padding-left:5px;
+    padding-right:5px;
+    
+}
 footer{
     background-color: black;
-    padding: 3px;
+    height: 60%;
+    position: relative;
+    text-align:center;
+   
+    top: 40%;
+    min-height: 35vh;
+    padding-top:5px;
+    padding-bottom:5px;
     
 }
